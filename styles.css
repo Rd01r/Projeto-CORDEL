@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --fonte-1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-2: "Passion One", sans-serif;
+    --fonte-3: "Sriracha", cursive;
+}
+
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-family: var(--fonte-3);
+    font-size: 3em ;
+    padding: 2px;
+}
+
+header p {
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+header p:hover{
+    color: rgb(1, 201, 252, 0.719);
+    transition-duration: 0.5s;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+header a:hover {
+    color: rgba(1, 201, 252, 0.719);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+section {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5em;
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+
+section p {
+    padding-bottom: 1.5em;
+    margin-bottom: 1px;
+}
+
+section.normal {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
+    font-family: var(--fonte-3);
+}
+
+section.imagen {
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-family: var(--fonte-3);
+    background-attachment: fixed;
+}
+
+section.imagen p {
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.767);
+}
+
+section#img01{
+    background-image: url('img/background001.jpg');
+    background-position: 100% 100% ;
+    background-size: cover ;
+}
+
+section#img02{
+    background-image: url('img/background002.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+
+footer {
+    background-image: linear-gradient(to right, rgba(0, 0, 100, 0.281), white);
+    text-align: center;
+}
+
+
+
